@@ -1,0 +1,12 @@
+controller 控制器，是ui和数据的结合点，逻辑处理的地方。主要是和scenes对应，一个Scene可以对应多个controller，controller的作用是对Scene的功能进行分类，使得逻辑更加清晰。Scene有不同的功能，可以分别建不同的controller。
+scenes 游戏中用到的几个场景，比如负责加载的LoadingScene、大厅界面HallScene、游戏界面GameScene、可能有不同的游        戏界面可可以写成多个不通的GameScene。可以将不同的views里的东西加入scene中
+views 是放界面的。所有的ui都在这里，
+        commons，是通用的组建，例如Alert，自己写的列表等。
+        games，是游戏场景里的ui
+        halls，是大厅里的ui
+        popups，是弹出窗口
+        renderers，是列表中用到的renderer
+models 游戏中的数据库。存放游戏里面的数据，包括servers里面的几个服务发送过来的数据，程序本身的数据，以及对数据的        简单逻辑处理。程序中用到的数据都要通过它来访问。
+		
+		
+		

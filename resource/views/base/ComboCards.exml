@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="Skin.ComboCards" width="185" height="112" xmlns:e="http://ns.egret.com/eui"          xmlns:w="http://ns.egret.com/wing" xmlns:JAY="JAY.*" states="Horizental,Vertical" width.Vertical="56"          height.Vertical="110" width.Horizental="131" height.Horizental="81">
+	<e:Group includeIn="Horizental" y.Vertical="14" y.Horizental="14">
+		<JAY:Card id="cardH_0" width="47" height="67" x="0" skinName="Skin.Card" anchorOffsetX="23" anchorOffsetY="33.5"             scaleX="1" scaleY="1" y="0" includeIn="Horizental" currentState="fall_down" />
+		<JAY:Card id="cardH_1" width="47" height="67" x="64" skinName="Skin.Card" anchorOffsetX="23.5" anchorOffsetY="33.5"             currentState="fall_down" />
+		<JAY:Card id="cardH_2" width="47" height="67" skinName="Skin.Card" anchorOffsetX="23.5" anchorOffsetY="33.5"             currentState="fall_down" />
+		<e:layout>
+			<e:HorizontalLayout gap="-5" />
+		</e:layout>
+	</e:Group>
+	<JAY:Card id="cardH_3" width="47" height="67" skinName="Skin.Card" anchorOffsetX="23.5" anchorOffsetY="33.5"            currentState="fall_down" scaleX="1" scaleY="1" width.Vertical="64" height.Vertical="53"            currentState.Vertical="fall_left" x.Vertical="0" y.Vertical="20" includeIn="Horizental" y.Horizental="33.5"            currentState.Horizental="fall_down" x="64.5" />
+	<e:Group includeIn="Vertical" x="0" y="0">
+		<JAY:Card id="cardV_0" width="56" height="47" x="0" skinName="Skin.Card" anchorOffsetX="0" anchorOffsetY="0"
+		         currentState="fall_left" scaleX="1" scaleY="1" y="0" includeIn="Vertical" />
+		<JAY:Card id="cardV_1" width="56" height="47" x="0" skinName="Skin.Card" anchorOffsetX="0" anchorOffsetY="0"
+		         currentState="fall_left" scaleX="1" scaleY="1" y="32" includeIn="Vertical" />
+		<JAY:Card id="cardV_2" width="56" height="47" skinName="Skin.Card" anchorOffsetX="0" anchorOffsetY="0"
+		         currentState="fall_left" scaleX="1" scaleY="1" y="64" x="0" includeIn="Vertical" />
+		<e:layout>
+			<e:VerticalLayout gap="-13" />
+		</e:layout>
+	</e:Group>
+	<JAY:Card id="cardV_3" width="56" height="47" x="0" skinName="Skin.Card" anchorOffsetX="0" anchorOffsetY="0"
+	         currentState="fall_left" scaleX="1" scaleY="1" y="21" includeIn="Vertical" />
+</e:Skin>

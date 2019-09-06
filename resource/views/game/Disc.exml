@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="Skin.Disc" width="154" height="154" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:JAY="JAY.*">
+	<e:Image id="bg" source="disc_bg_png" width="100%" height="100%" horizontalCenter="0" verticalCenter="0"/>
+	<e:Group id="dark_bg" width="100%" height="100%" horizontalCenter="0" verticalCenter="0">
+		<e:Image width="100%" height="100%" source="disc_dark_bg_png" horizontalCenter="0" verticalCenter="0" x="0" y="0" scaleX="1" scaleY="1"/>
+		<e:Image width="100%" height="100%" source="disc_dark_bg_png" horizontalCenter="0" verticalCenter="0" x="0" y="154" rotation="270" scaleX="1" scaleY="1"/>
+		<e:Image width="100%" height="100%" source="disc_dark_bg_png" horizontalCenter="0" verticalCenter="0" x="154" y="154" rotation="180" scaleX="1" scaleY="1"/>
+		<e:Image width="100%" height="100%" source="disc_dark_bg_png" horizontalCenter="0" verticalCenter="0" x="154" y="0" rotation="90" scaleX="1" scaleY="1"/>
+	</e:Group>
+	<e:Group id="lights" width="100%" height="100%" horizontalCenter="0" verticalCenter="0" x="10" y="10">
+		<e:Image source="disc_light_bg_png" horizontalCenter="0" verticalCenter="0" x="0" y="0" scaleX="1" scaleY="1" width="100%" height="100%"/>
+		<e:Image source="disc_light_bg_png" horizontalCenter="0" verticalCenter="0" x="0" y="0" scaleX="1" scaleY="1" rotation="270" width="100%" height="100%"/>
+		<e:Image source="disc_light_bg_png" horizontalCenter="0" verticalCenter="0" x="0" y="0" scaleX="1" scaleY="1" rotation="180" width="100%" height="100%"/>
+		<e:Image source="disc_light_bg_png" horizontalCenter="0" verticalCenter="0" x="154" y="0" rotation="90" scaleX="1" scaleY="1" width="100%" height="100%"/>
+	</e:Group>
+	<e:Image id="img_fengDir" source="disc_feng_png" horizontalCenter="0" verticalCenter="0" x="0" y="0" scaleX="1" scaleY="1" width="247%" height="100%" rotation="0"/>
+	<JAY:MCPlayer id="anim_dice" mcLink="shaizi" horizontalCenter="0" verticalCenter="0"/>
+	<e:Group id="dice" width="64" height="35" horizontalCenter="0" verticalCenter="0">
+		<e:Image source="s1_png" left="0" width="30" height="35"/>
+		<e:Image source="s2_png" right="0" width="30" height="35"/>
+	</e:Group>
+	<e:Label id="remain_count" text="" scaleX="1" scaleY="1" horizontalCenter="0" size="20" border="false" borderColor="0x0c0c0c" bold="true" y="159" textColor="0x0f0e0e"/>
+</e:Skin>

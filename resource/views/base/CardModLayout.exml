@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="Skin.CardModLayout" width="1172" height="240" currentState="Up" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:JAY="JAY.*" states="Down,Up,Left,Right" width.Left="218"
+        height.Left="750" width.Down="1334" width.Up="1334" width.Right="218" height.Right="750" height.Down="297"
+        height.Up="267">
+	<e:Group id="AllCards" width="0" height="122" anchorOffsetY.Up="0" width.Left="56" height.Left="100%" y.Left="0"
+	         height.Up="66" width.Right="56" height.Right="100%" y.Right="0" width.Down="100%" width.Up="100%" top.Up="0"
+	         horizontalCenter.Up="0" bottom.Down="0" horizontalCenter.Down="0" left.Left="0" right.Right="0">
+		<e:Group id="HandCards" x="406" y="0" includeInLayout="true" width.Left="46" width.Right="46">
+			<e:layout>
+				<e:HorizontalLayout horizontalAlign="center" gap.Down="-5" gap.Up="-6" gap.Right="-50" />
+			</e:layout>
+			<e:layout.Right>
+				<e:VerticalLayout gap="-50" />
+			</e:layout.Right>
+			<e:layout.Left>
+				<e:VerticalLayout gap="-50" verticalAlign="middle" />
+			</e:layout.Left>
+		</e:Group>
+		<e:layout>
+			<e:HorizontalLayout gap="10" verticalAlign="bottom" horizontalAlign="center"   verticalAlign.Up="top" verticalAlign.Down="top"/>
+		</e:layout>
+		<e:layout.Right>
+			<e:VerticalLayout verticalAlign="middle" horizontalAlign="left" />
+		</e:layout.Right>
+		<e:layout.Left>
+			<e:VerticalLayout gap="3" horizontalAlign="left" verticalAlign="middle" />
+		</e:layout.Left>
+	</e:Group>
+	<e:Group id="OutCards" verticalCenter.Left="0" verticalCenter.Right="0" anchorOffsetY.Up="0" horizontalCenter.Up="0.5"
+	         bottom.Up="0" top.Down="0" horizontalCenter.Down="0" right.Left="0" left.Right="0" scaleX.Left="-1" scaleX.Up="-1" scaleY.Up="-1">
+		<e:layout>
+			<e:HorizontalLayout gap="-4" verticalAlign.Up="bottom" />
+		</e:layout>
+		<e:layout.Right>
+			<e:TileLayout horizontalGap="-3" verticalGap="-11" rowHeight="47" columnWidth="56" requestedRowCount="6"
+			              requestedColumnCount="3" orientation="columns" />
+		</e:layout.Right>
+		<e:layout.Left>
+			<e:TileLayout rowHeight="47" columnWidth="56" requestedRowCount="6" requestedColumnCount="3" orientation="columns"
+			              horizontalGap="-3" verticalGap="-11" />
+		</e:layout.Left>
+		<e:layout.Up>
+			<e:TileLayout horizontalGap="-3" rowHeight="67" columnWidth="47" requestedRowCount="3"
+			              requestedColumnCount="6"  orientation="rows" verticalGap="0"/>
+		</e:layout.Up>
+		<e:layout.Down>
+			<e:TileLayout rowHeight="67" requestedRowCount="3" columnWidth="47" requestedColumnCount="6" horizontalGap="-3"
+			              orientation="rows" verticalGap="-13" />
+		</e:layout.Down>
+	</e:Group>
+</e:Skin>

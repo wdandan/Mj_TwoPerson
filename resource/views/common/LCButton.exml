@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<e:Skin class="Skins.JAYButton" states="up,down,disabled" minHeight="50" minWidth="100" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" width="120" height="60" width.down="130" height.down="70">
+    <e:Image width="100%" height="100%" alpha.disabled="0.5" source="kwx_hall_two_bt_png"
+             source.down="kwx_hall_two_bt_png" scaleX.down="1.2" scaleY.down="1.2"
+             source.disabled="kwx_hall_two_bt1_png" scale9Grid="30,28,121,33" />
+    <e:Label id="labelDisplay" top="8" bottom="8" left="8" right="8" size="20" textColor="0xFFFFFF"
+             verticalAlign="middle" textAlign="center" includeIn="up,disabled" />
+    <e:Image id="iconDisplay" horizontalCenter="0" verticalCenter="0" includeIn="up,disabled" />
+    <e:BitmapLabel id="labelImage" width="100%" height="100%" text="加" font="btn_fnt" verticalCenter="0"
+                   horizontalCenter="0" textAlign="center" verticalAlign="middle" scaleX="0.6" scaleY="0.6" text.down="" />
+</e:Skin>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="Skin.HallLayer" width="1334" height="750" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="hall_bg_png"/>
+	<e:Button id="btn_playGround" label="游戏场" y="350" width="200" horizontalCenter="0"/>
+	<e:Button id="btn_friendRoom" label="好友房" y="477" width="200" horizontalCenter="0"/>
+</e:Skin>

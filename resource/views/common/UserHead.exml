@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="Skin.UserHead" width="166" height="190" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Label id="label_ready" text="已准备" y="2" horizontalCenter="0" visible="false"/>
+	<e:Group width="123" height="123" y="38" horizontalCenter="0">
+		<e:Image source="kwx_avatar_png" scaleX="1" scaleY="1"/>
+		<e:Image id="headImg" width="110" height="110" horizontalCenter="0" verticalCenter="0" visible="false"/>
+		<e:Image id="headShade" source="kwx_avater3_png" horizontalCenter="0" verticalCenter="0" x="32" y="43" scaleX="1" scaleY="1" visible="false"/>
+		<e:Image id="headShadeT" source="kwx_avater3_png" horizontalCenter="0" verticalCenter="0" x="-7" y="0" scaleX="1" scaleY="1" visible="false"/>
+		<e:Image id="duanxianImg" source="kwx_avater4_png" y="7" x="14" scaleX="1" scaleY="1" visible="false"/>
+		<e:Rect id="tgRect" width="114" height="110" strokeAlpha="1" fillAlpha="0.65" horizontalCenter="0" verticalCenter="0" x="4" y="2" scaleX="1" scaleY="1" visible="false"/>
+		<e:Image id="tuoGuanIcon" source="kwx_tuoguanzhong_png" horizontalCenter="0" verticalCenter="0" x="10" y="37" scaleX="1" scaleY="1" visible="false"/>
+		<e:Image id="headOwner" x="-8" y="-1" source="kwx_game_house_png" scaleX="1" scaleY="1" visible="false"/>
+		<e:Image id="duanxian" width="138" height="33" anchorOffsetX="0" anchorOffsetY="0" source="kwx_duanxin_png" horizontalCenter="0" verticalCenter="0" x="-8" y="41" scaleX="1" scaleY="1" visible="false"/>
+		<e:Image id="headQuestionImg" source="kwx_avater2_png" scaleX="1" scaleY="1" x="-3" y="1"/>
+		<e:Image id="sidai" width="133" height="57" y="58" source="kwx_sidai_png" horizontalCenter="0" x="-5" scaleX="1" scaleY="1"/>
+		<e:Image id="img_banker" x="85" y="-3" source="kwx_g_zhuang_png" scaleX="1" scaleY="1" visible="false"/>
+	</e:Group>
+
+
+
+
+
+
+
+
+
+
+
+
+	<e:Label id="scoreLabel" text="0" y="137" size="25" textAlign="center" horizontalCenter="0" visible="false"/>
+	<e:Label id="label_Name" size="25" width="183" verticalAlign="top" textAlign="center" multiline="true" maxChars="5" text="" height="25" y="162" horizontalCenter="0"/>
+</e:Skin>

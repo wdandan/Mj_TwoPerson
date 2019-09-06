@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="Skin.GameLayer"  xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:JAY="JAY.*" width="1334">
+	<e:Group width="100%" height="100%" horizontalCenter="0" verticalCenter="0">
+		<e:Image source="room_bg_jpg" scaleX="1" scaleY="1"/>
+
+		<e:Label id="roomNo" text="房间号：" textAlign="center" horizontalCenter="0" y="245" size="24" textColor="0x1c1818"/>
+		<JAY:Disc id="disc" width="150" height="150" horizontalCenter="0" skinName="Skin.Disc" y="269"/>
+
+
+
+
+
+
+
+
+
+		<e:Group id="Left" width="520" height="750" anchorOffsetX="0" left="0">
+			<JAY:UserHead id="user_left" width="166" height="175" skinName="Skin.UserHead" scaleX="1" scaleY="1" y="288" right="0"/>
+			<JAY:CardModLayout id="mod_left" width="100%" height="750" skinName="Skin.CardModLayout" currentState="Left" y="0" left="0"/>
+		</e:Group>
+		<e:Group id="Up" width="1334" height="244" y="0" x="0">
+			<JAY:UserHead id="user_up" width="166" height="175" skinName="Skin.UserHead" x="584" scaleX="1" scaleY="1" bottom="0"/>
+			<JAY:CardModLayout id="mod_up" width="100%" height="100%" skinName="Skin.CardModLayout" horizontalCenter="0" currentState="Up" top="0"/>
+		</e:Group>
+		<e:Group id="Right" width="520" height="750" right="0">
+			<JAY:UserHead id="user_right" width="166" height="175" skinName="Skin.UserHead" scaleX="1" scaleY="1" y="288" left="0"/>
+			<JAY:CardModLayout id="mod_right" width="100%" height="750" skinName="Skin.CardModLayout" currentState="Right" verticalCenter="0" left="0"/>
+		</e:Group>
+		<e:Group id="Down" width="1334" height="310" x="0" bottom="0">
+			<JAY:UserHead id="user_down" width="166" height="190" y="0" skinName="Skin.UserHead" anchorOffsetY="0" x="584" scaleX="1" scaleY="1"/>
+			<JAY:CardModLayout id="mod_down" width="1334" height="100%" skinName="Skin.CardModLayout" currentState="Down" bottom="0"/>
+		</e:Group>
+
+
+
+
+
+
+		<e:Button id="btn_ready" label="准备" y="641" width="150" height="80" horizontalCenter="0">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="kwx_hall_two_bt_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<JAY:ActHandler id="actHandler" width="750" height="150" y="464" x="292"/>
+		<e:Group verticalCenter="0" right="0">
+			<e:Group x="64" y="38">
+				<e:Button id="selectSourceCard" label="选择被替换的牌" x="-291" y="159" scaleX="1" scaleY="1"/>
+				<e:Button id="selectTargetCard" label="选择要替换成的牌" x="722" y="0" scaleX="1" scaleY="1"/>
+				<e:layout>
+					<e:VerticalLayout horizontalAlign="contentJustify" verticalAlign="middle"/>
+				</e:layout>
+			</e:Group>
+			<e:Group width="200" height="200" x="369" y="78">
+				<e:Button id="dealCard" label="发牌" x="-106" y="0" scaleX="1" scaleY="1"/>
+				<e:Button id="changeCard" label="换牌" x="206" y="0" scaleX="1" scaleY="1"/>
+				<e:Button id="confirmNextCard" label="确定下张摸牌" x="206" y="0" scaleX="1" scaleY="1"/>
+				<e:Button id="move" label="move布局" x="206.0000000000001" y="0" scaleX="1" scaleY="1"/>
+				<e:layout>
+					<e:VerticalLayout horizontalAlign="contentJustify"/>
+				</e:layout>
+			</e:Group>
+
+
+
+
+
+			<e:layout>
+				<e:HorizontalLayout/>
+			</e:layout>
+
+		</e:Group>
+
+
+	</e:Group>
+	<e:Button id="back" label="" left="0" top="0">
+		<e:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="back_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Panel id="cardSelect_Panel" height="435" horizontalCenter="-2" verticalCenter="-1.5" x="290" y="156" scaleX="1" scaleY="1" title="被替换的" visible="false">
+		<e:Group id="card_Group" scaleX="1" scaleY="1" horizontalCenter="0" verticalCenter="0">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+			<e:layout>
+				<e:TileLayout requestedRowCount="4" requestedColumnCount="9" columnWidth="43" rowHeight="62"/>
+			</e:layout>
+		</e:Group>
+		<e:Button id="sure" label="确定" y="346" horizontalCenter="0"/>
+	</e:Panel>
+</e:Skin>

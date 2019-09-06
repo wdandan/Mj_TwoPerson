@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="Skin.ActHandler" width="750" height="150" xmlns:e="http://ns.egret.com/eui" xmlns:JAY="JAY.*" xmlns:w="http://ns.egret.com/wing">
+	<e:Group width="100%" height="100%">
+		<e:Group id="chiComb_Group" height="150" anchorOffsetY="0">
+			<e:layout>
+			<e:HorizontalLayout gap="3" verticalAlign="middle"/>
+			</e:layout>
+		</e:Group>
+		<JAY:MCPlayer id="Chi" x="55" y="163" mcLink="mcChi" scaleX="1" scaleY="1" includeInLayout="false" visible="false"/>
+		<JAY:MCPlayer id="Peng" x="65" y="173" mcLink="mcPeng" scaleX="1" scaleY="1"/>
+		<JAY:MCPlayer id="Gang" x="75" y="183" mcLink="mcGang" scaleX="1" scaleY="1" includeInLayout="false" visible="false"/>
+		<JAY:MCPlayer id="Hu" x="85" y="193" mcLink="mcHu" scaleX="1" scaleY="1" includeInLayout="false" visible="false"/>
+		<JAY:MCPlayer id="Guo" x="45" y="153" mcLink="mcGuo" scaleX="1" scaleY="1"/>
+		<e:layout>
+		<e:HorizontalLayout verticalAlign="middle" horizontalAlign="right" gap="140"/>
+		</e:layout>
+	</e:Group>
+</e:Skin>
